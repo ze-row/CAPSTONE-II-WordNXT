@@ -42,17 +42,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
-
-
-
-
-
-
-
-
-
-
-
     }
 
     @Override
@@ -69,7 +58,8 @@ public class MainActivity extends AppCompatActivity {
                             for (QueryDocumentSnapshot document : task.getResult()) {
                                 String a = document.getString("Heading");
                                 String b = document.getString("Description");
-                                Info i = new Info (a,b);
+                                String c = document.getString("Timestamp");
+                                Info i = new Info (a,b,c);
                                 map.add(i);
                             }
                             MainActivityCustomAdapter adapter = new MainActivityCustomAdapter(map);

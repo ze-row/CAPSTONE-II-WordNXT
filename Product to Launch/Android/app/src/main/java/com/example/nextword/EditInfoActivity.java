@@ -1,6 +1,7 @@
 package com.example.nextword;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.InputType;
@@ -34,7 +35,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 
-public class EditActivity extends AppCompatActivity {
+public class EditInfoActivity extends AppCompatActivity {
 
     EditText heading, description;
     Button save;
@@ -42,18 +43,42 @@ public class EditActivity extends AppCompatActivity {
     FirebaseFirestore db;
     Button predictHeading, predictDescription;
     List<String> index_word;
-    int accept,decline;
+    int accept,decline,blank_head,blank_des;
+    String timestamp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_empty);
+        setContentView(R.layout.activity_edit_info);
 
-        heading = findViewById(R.id.editTextHeading);
-        description = findViewById(R.id.editTextDescription);
-        save = findViewById(R.id.editActivityButtonSave);
-        predictHeading = findViewById(R.id.predictHeading);
-        predictDescription = findViewById(R.id.predictDescription);
+
+        Intent i = getIntent();
+
+        String head  = i.getStringExtra("heading");
+        String descr  = i.getStringExtra("description");
+        timestamp = i.getStringExtra("timestamp");
+
+        String[] blank_d = descr.split(" ");
+        blank_des = blank_d.length;
+
+        String[] blank_h = head.split(" ");
+        blank_head = blank_h.length;
+
+
+
+        heading = findViewById(R.id.editInfoTextHeading);
+        description = findViewById(R.id.editInfoTextDescription);
+
+        heading.setText(head);
+        description.setText(descr);
+        description.setSelection(description.getText().length());
+        heading.setSelection(heading.getText().length());
+
+
+
+        save = findViewById(R.id.editInfoActivityButtonSave);
+        predictHeading = findViewById(R.id.predictHeadingInfo);
+        predictDescription = findViewById(R.id.predictDescriptionInfo);
         heading.setInputType(InputType.TYPE_NULL);
         description.setInputType(InputType.TYPE_NULL);
 
@@ -86,7 +111,7 @@ public class EditActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
-        
+
 
         heading.addTextChangedListener(new TextWatcher() {
             @Override
@@ -114,7 +139,7 @@ public class EditActivity extends AppCompatActivity {
                             }
                         }
                         try {
-                            MyModel model = MyModel.newInstance(EditActivity.this);
+                            MyModel model = MyModel.newInstance(EditInfoActivity.this);
 
                             // Creates inputs for reference.
                             TensorBuffer inputFeature0 = TensorBuffer.createFixedSize(new int[]{1, 1}, DataType.FLOAT32);
@@ -179,7 +204,7 @@ public class EditActivity extends AppCompatActivity {
                             }
                         }
                         try {
-                            MyModel model = MyModel.newInstance(EditActivity.this);
+                            MyModel model = MyModel.newInstance(EditInfoActivity.this);
 
                             // Creates inputs for reference.
                             TensorBuffer inputFeature0 = TensorBuffer.createFixedSize(new int[]{1, 1}, DataType.FLOAT32);
@@ -222,19 +247,20 @@ public class EditActivity extends AppCompatActivity {
         save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String timestamp = String.valueOf(System.currentTimeMillis());
                 headingInfo = heading.getText().toString().trim();
                 descriptionInfo = description.getText().toString().trim();
+
                 String[] blanks_heading = headingInfo.split(" ");
                 String[] blanks_description = descriptionInfo.split(" ");
-                int decline = blanks_heading.length + blanks_description.length -2 - accept;
+                int decline = blanks_heading.length + blanks_description.length -2 - accept - blank_des - blank_head;
 
+                String time = String.valueOf(System.currentTimeMillis());
                 Map<String, Object> show = new HashMap<>();
                 show.put("accept", accept);
                 show.put("decline",decline);
-                show.put("timestamp",timestamp);
+                show.put("timestamp",time);
 
-                db.collection("Administration").document(timestamp)
+                db.collection("Administration").document(time)
                         .set(show, SetOptions.merge())
                         .addOnSuccessListener(new OnSuccessListener<Void>() {
                             @Override
@@ -245,10 +271,9 @@ public class EditActivity extends AppCompatActivity {
                         .addOnFailureListener(new OnFailureListener() {
                             @Override
                             public void onFailure(@NonNull Exception e) {
-                                Toast.makeText(EditActivity.this,e.getMessage(),Toast.LENGTH_LONG).show();
+                                Toast.makeText(EditInfoActivity.this,e.getMessage(),Toast.LENGTH_LONG).show();
                             }
                         });
-
 
 
 
@@ -262,16 +287,17 @@ public class EditActivity extends AppCompatActivity {
                         .addOnSuccessListener(new OnSuccessListener<Void>() {
                             @Override
                             public void onSuccess(Void aVoid) {
-                                Toast.makeText(EditActivity.this,"notes info saved",Toast.LENGTH_LONG).show();
+                                Toast.makeText(EditInfoActivity.this,"notes edited",Toast.LENGTH_LONG).show();
                                 finish();
                             }
                         })
                         .addOnFailureListener(new OnFailureListener() {
                             @Override
                             public void onFailure(@NonNull Exception e) {
-                                Toast.makeText(EditActivity.this,e.getMessage(),Toast.LENGTH_LONG).show();
+                                Toast.makeText(EditInfoActivity.this,e.getMessage(),Toast.LENGTH_LONG).show();
                             }
                         });
+
             }
         });
 

@@ -43,6 +43,7 @@ public class MainActivityCustomAdapter extends RecyclerView.Adapter<MainActivity
                 Intent i = new Intent(v.getContext(),ViewheadingActivity.class);
                 i.putExtra("heading",map.get(position).getHeading());
                 i.putExtra("description",map.get(position).getDescription());
+                i.putExtra("timestamp",map.get(position).getTimestamp());
                 v.getContext().startActivity(i);
             }
         });

@@ -22,6 +22,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.nextword.EditInfoActivity" />
         <activity android:name="com.example.nextword.ViewheadingActivity" />
         <activity android:name="com.example.nextword.EditActivity" />
         <activity android:name="com.example.nextword.SplashActivity" >

@@ -1851,6 +1851,7 @@ int id decelerate 0x7f08007e
 int id decelerateAndComplete 0x7f08007f
 int id decor_content_parent 0x7f080080
 int id default_activity_button 0x7f080081
+int id deletebutton 0x7f0801b8
 int id deltaRelative 0x7f080082
 int id dependency_ordering 0x7f080083
 int id design_bottom_sheet 0x7f080084
@@ -1877,6 +1878,9 @@ int id easeIn 0x7f080098
 int id easeInOut 0x7f080099
 int id easeOut 0x7f08009a
 int id editActivityButtonSave 0x7f08009b
+int id editInfoActivityButtonSave 0x7f0801b9
+int id editInfoTextDescription 0x7f0801ba
+int id editInfoTextHeading 0x7f0801bb
 int id editTextDescription 0x7f08009c
 int id editTextHeading 0x7f08009d
 int id edit_query 0x7f08009e
@@ -2027,7 +2031,9 @@ int id pin 0x7f08012e
 int id position 0x7f08012f
 int id postLayout 0x7f080130
 int id predictDescription 0x7f080131
+int id predictDescriptionInfo 0x7f0801bc
 int id predictHeading 0x7f080132
+int id predictHeadingInfo 0x7f0801bd
 int id progress_circular 0x7f080133
 int id progress_horizontal 0x7f080134
 int id radio 0x7f080135
@@ -2222,6 +2228,7 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0b0018
 int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
+int layout activity_edit_info 0x7f0b0075
 int layout activity_empty 0x7f0b001c
 int layout activity_login 0x7f0b001d
 int layout activity_main 0x7f0b001e

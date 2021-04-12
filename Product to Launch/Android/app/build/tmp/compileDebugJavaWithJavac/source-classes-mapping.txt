@@ -1,5 +1,7 @@
-com/example/nextword/ViewheadingActivity.java
- com.example.nextword.ViewheadingActivity
+com/example/nextword/MainActivity.java
+ com.example.nextword.MainActivity
+ com.example.nextword.MainActivity$1
+ com.example.nextword.MainActivity$2
 com/example/nextword/LoginActivity.java
  com.example.nextword.LoginActivity
  com.example.nextword.LoginActivity$1
@@ -8,6 +10,8 @@ com/example/nextword/ml/MyModel.java
  com.example.nextword.ml.MyModel
  com.example.nextword.ml.MyModel$1
  com.example.nextword.ml.MyModel$Outputs
+com/example/nextword/BuildConfig.java
+ com.example.nextword.BuildConfig
 com/example/nextword/SplashActivity.java
  com.example.nextword.SplashActivity
  com.example.nextword.SplashActivity$1
@@ -20,15 +24,31 @@ com/example/nextword/MainActivityCustomAdapter.java
  com.example.nextword.MainActivityCustomAdapter
  com.example.nextword.MainActivityCustomAdapter$1
  com.example.nextword.MainActivityCustomAdapter$ViewHolder
-com/example/nextword/BuildConfig.java
- com.example.nextword.BuildConfig
-com/example/nextword/MainActivity.java
- com.example.nextword.MainActivity
- com.example.nextword.MainActivity$1
- com.example.nextword.MainActivity$2
 com/example/nextword/EditActivity.java
  com.example.nextword.EditActivity
  com.example.nextword.EditActivity$1
+ com.example.nextword.EditActivity$1$1
  com.example.nextword.EditActivity$2
  com.example.nextword.EditActivity$2$1
- com.example.nextword.EditActivity$2$2
+ com.example.nextword.EditActivity$3
+ com.example.nextword.EditActivity$3$1
+ com.example.nextword.EditActivity$3$2
+ com.example.nextword.EditActivity$3$3
+ com.example.nextword.EditActivity$3$4
+com/example/nextword/EditInfoActivity.java
+ com.example.nextword.EditInfoActivity
+ com.example.nextword.EditInfoActivity$1
+ com.example.nextword.EditInfoActivity$1$1
+ com.example.nextword.EditInfoActivity$2
+ com.example.nextword.EditInfoActivity$2$1
+ com.example.nextword.EditInfoActivity$3
+ com.example.nextword.EditInfoActivity$3$1
+ com.example.nextword.EditInfoActivity$3$2
+ com.example.nextword.EditInfoActivity$3$3
+ com.example.nextword.EditInfoActivity$3$4
+com/example/nextword/ViewheadingActivity.java
+ com.example.nextword.ViewheadingActivity
+ com.example.nextword.ViewheadingActivity$1
+ com.example.nextword.ViewheadingActivity$2
+ com.example.nextword.ViewheadingActivity$2$1
+ com.example.nextword.ViewheadingActivity$2$2

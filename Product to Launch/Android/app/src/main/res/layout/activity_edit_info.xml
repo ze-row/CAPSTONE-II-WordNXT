@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ViewheadingActivity">
+    tools:context=".EditInfoActivity">
 
-    <TextView
-        android:id="@+id/TextHeading"
-        android:layout_width="match_parent"
+    <EditText
+        android:id="@+id/editInfoTextHeading"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="18dp"
         android:layout_marginTop="32dp"
-        android:textStyle="bold"
-        android:textSize="32sp"
         android:layout_marginEnd="18dp"
+        android:ems="10"
+        android:hint="Heading"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -22,40 +22,48 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
-    <TextView
-        android:id="@+id/TextDescription"
+    <EditText
+        android:id="@+id/editInfoTextDescription"
         android:layout_width="0dp"
         android:layout_height="300dp"
         android:layout_marginStart="18dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="18dp"
         android:gravity="top"
-        android:textSize="18sp"
+        android:hint="Description"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/TextHeading" />
+        app:layout_constraintTop_toBottomOf="@id/predictHeadingInfo" />
 
     <Button
-        android:id="@+id/editbutton"
+        android:id="@+id/editInfoActivityButtonSave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Edit"
+        android:text="Save"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/deletebutton"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintTop_toBottomOf="@+id/TextDescription" />
-
-    <Button
-        android:id="@+id/deletebutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Delete"
-        app:layout_constraintBottom_toBottomOf="parent"
-
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/editbutton"
-        app:layout_constraintTop_toBottomOf="@+id/TextDescription"/>
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/predictDescriptionInfo" />
+
+    <Button
+        android:id="@+id/predictHeadingInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editInfoTextHeading"/>
+
+    <Button
+        android:id="@+id/predictDescriptionInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editInfoTextDescription"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
