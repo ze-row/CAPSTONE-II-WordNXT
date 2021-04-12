@@ -5,8 +5,8 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="24"
-        android:targetSdkVersion="29" />
+        android:minSdkVersion="26"
+        android:targetSdkVersion="30" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -22,18 +22,18 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.nxtword.ViewheadingActivity" />
-        <activity android:name="com.example.nxtword.EditActivity" />
-        <activity android:name="com.example.nxtword.SplashActivity" >
+        <activity android:name="com.example.nextword.ViewheadingActivity" />
+        <activity android:name="com.example.nextword.EditActivity" />
+        <activity android:name="com.example.nextword.SplashActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.nxtword.SignupActivity" />
-        <activity android:name="com.example.nxtword.LoginActivity" />
-        <activity android:name="com.example.nxtword.MainActivity" />
+        <activity android:name="com.example.nextword.SignupActivity" />
+        <activity android:name="com.example.nextword.LoginActivity" />
+        <activity android:name="com.example.nextword.MainActivity" />
         <activity
             android:name="com.google.firebase.auth.internal.GenericIdpActivity"
             android:excludeFromRecents="true"
@@ -100,11 +100,6 @@
                 android:value="com.google.firebase.components.ComponentRegistrar" />
         </service>
 
-        <activity
-            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
             android:authorities="com.example.nxtword.firebaseinitprovider"
@@ -112,15 +107,14 @@
             android:exported="false"
             android:initOrder="100" />
 
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-
-        <provider
-            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-            android:authorities="com.example.nxtword.lifecycle-process"
-            android:exported="false"
-            android:multiprocess="true" />
     </application>
 
 </manifest>

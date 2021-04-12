@@ -1,30 +1,34 @@
-com/example/nxtword/SplashActivity.java
- com.example.nxtword.SplashActivity
- com.example.nxtword.SplashActivity$1
- com.example.nxtword.SplashActivity$2
-com/example/nxtword/BuildConfig.java
- com.example.nxtword.BuildConfig
-com/example/nxtword/ViewheadingActivity.java
- com.example.nxtword.ViewheadingActivity
-com/example/nxtword/MainActivityCustomAdapter.java
- com.example.nxtword.MainActivityCustomAdapter
- com.example.nxtword.MainActivityCustomAdapter$1
- com.example.nxtword.MainActivityCustomAdapter$ViewHolder
-com/example/nxtword/SignupActivity.java
- com.example.nxtword.SignupActivity
-com/example/nxtword/LoginActivity.java
- com.example.nxtword.LoginActivity
- com.example.nxtword.LoginActivity$1
- com.example.nxtword.LoginActivity$1$1
-com/example/nxtword/Info.java
- com.example.nxtword.Info
-com/example/nxtword/EditActivity.java
- com.example.nxtword.EditActivity
- com.example.nxtword.EditActivity$1
- com.example.nxtword.EditActivity$2
- com.example.nxtword.EditActivity$2$1
- com.example.nxtword.EditActivity$2$2
-com/example/nxtword/MainActivity.java
- com.example.nxtword.MainActivity
- com.example.nxtword.MainActivity$1
- com.example.nxtword.MainActivity$2
+com/example/nextword/ViewheadingActivity.java
+ com.example.nextword.ViewheadingActivity
+com/example/nextword/LoginActivity.java
+ com.example.nextword.LoginActivity
+ com.example.nextword.LoginActivity$1
+ com.example.nextword.LoginActivity$1$1
+com/example/nextword/ml/MyModel.java
+ com.example.nextword.ml.MyModel
+ com.example.nextword.ml.MyModel$1
+ com.example.nextword.ml.MyModel$Outputs
+com/example/nextword/SplashActivity.java
+ com.example.nextword.SplashActivity
+ com.example.nextword.SplashActivity$1
+ com.example.nextword.SplashActivity$2
+com/example/nextword/Info.java
+ com.example.nextword.Info
+com/example/nextword/SignupActivity.java
+ com.example.nextword.SignupActivity
+com/example/nextword/MainActivityCustomAdapter.java
+ com.example.nextword.MainActivityCustomAdapter
+ com.example.nextword.MainActivityCustomAdapter$1
+ com.example.nextword.MainActivityCustomAdapter$ViewHolder
+com/example/nextword/BuildConfig.java
+ com.example.nextword.BuildConfig
+com/example/nextword/MainActivity.java
+ com.example.nextword.MainActivity
+ com.example.nextword.MainActivity$1
+ com.example.nextword.MainActivity$2
+com/example/nextword/EditActivity.java
+ com.example.nextword.EditActivity
+ com.example.nextword.EditActivity$1
+ com.example.nextword.EditActivity$2
+ com.example.nextword.EditActivity$2$1
+ com.example.nextword.EditActivity$2$2

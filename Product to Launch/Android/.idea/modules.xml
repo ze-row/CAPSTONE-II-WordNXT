@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NxtWord.iml" filepath="$PROJECT_DIR$/.idea/modules/NxtWord.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/NxtWord.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/NxtWord.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NextWord.iml" filepath="$PROJECT_DIR$/.idea/modules/NextWord.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/NextWord.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/NextWord.app.iml" />
     </modules>
   </component>
 </project>
