@@ -54,8 +54,6 @@ public class EditActivity extends AppCompatActivity {
         save = findViewById(R.id.editActivityButtonSave);
         predictHeading = findViewById(R.id.predictHeading);
         predictDescription = findViewById(R.id.predictDescription);
-        heading.setInputType(InputType.TYPE_NULL);
-        description.setInputType(InputType.TYPE_NULL);
 
         db = FirebaseFirestore.getInstance();
         InputStream index_word_is = getResources().openRawResource(R.raw.index_word);

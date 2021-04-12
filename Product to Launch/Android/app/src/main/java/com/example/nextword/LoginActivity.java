@@ -19,7 +19,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class LoginActivity extends AppCompatActivity {
 
     EditText email, password;
-    Button login;
+    Button login, createAccount;
     private FirebaseAuth firebaseAuth;
     String emailId, passwordId;
 
@@ -32,6 +32,15 @@ public class LoginActivity extends AppCompatActivity {
         password = (EditText) findViewById(R.id.password_login);
         login = findViewById(R.id.login);
         firebaseAuth = FirebaseAuth.getInstance();
+
+        createAccount = findViewById(R.id.need);
+        createAccount.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(LoginActivity.this, SignupActivity.class);
+                startActivity(i);
+            }
+        });
 
 
 
