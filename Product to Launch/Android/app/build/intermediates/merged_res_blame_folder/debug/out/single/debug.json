@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/build/intermediates/res/merged/debug/raw_word_index.json.flat",
+        "source": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/src/main/res/raw/word_index.json"
+    },
+    {
+        "merged": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/build/intermediates/res/merged/debug/layout_activity_viewheading.xml.flat",
+        "source": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/src/main/res/layout/activity_viewheading.xml"
+    },
+    {
+        "merged": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
+        "source": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/build/intermediates/res/merged/debug/raw_index_word.json.flat",
+        "source": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/src/main/res/raw/index_word.json"
+    },
+    {
+        "merged": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/build/intermediates/res/merged/debug/drawable_ic_baseline_add_24.xml.flat",
+        "source": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/src/main/res/drawable/ic_baseline_add_24.xml"
+    },
+    {
+        "merged": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/build/intermediates/res/merged/debug/layout_activity_signup.xml.flat",
+        "source": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/src/main/res/layout/activity_signup.xml"
+    },
+    {
+        "merged": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/build/intermediates/res/merged/debug/menu_mainactivity.xml.flat",
+        "source": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/src/main/res/menu/mainactivity.xml"
+    },
+    {
+        "merged": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/build/intermediates/res/merged/debug/layout_activity_empty.xml.flat",
+        "source": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/src/main/res/layout/activity_empty.xml"
+    },
+    {
+        "merged": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/build/intermediates/res/merged/debug/drawable-v24_logo.png.flat",
+        "source": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/src/main/res/drawable-v24/logo.png"
+    },
+    {
+        "merged": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/build/intermediates/res/merged/debug/layout_activity_splash.xml.flat",
+        "source": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/build/intermediates/res/merged/debug/layout_view.xml.flat",
+        "source": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/src/main/res/layout/view.xml"
+    },
+    {
+        "merged": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/simran/Desktop/CAPSTONE-II-WordNXT/Product to Launch/Android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    }
+]
